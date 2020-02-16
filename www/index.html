@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script>
+
+        function setlop() {
+            var absence=parseInt(document.getElementById('absence').value);
+            document.getElementById('lop').value=absence;
+        }
+
+        function calculate() {
+            var salary=parseInt(document.getElementById('salary').value);
+            var noofdays = parseInt(document.getElementById('days').value);
+            var lopdays = parseInt(document.getElementById('lop').value);
+            var advance= parseInt(document.getElementById('advance').value);
+
+            var LOP=(salary/noofdays)*lopdays;
+            var NET=((salary-LOP)-advance);
+
+            document.getElementById('net').value=NET;
+        }
+
+    </script>
+</head>
+<body>
+<form id="lop_form" name="lop_form" >
+    <table border="0">
+        <tr>
+            <td colspan="2" align="center">Employee Salary Calculation</td>
+        </tr>
+        <tr>
+            <td>Gross Salary :</td>
+            <td>
+                <input type="text" name="salary" id="salary" placeholder="Gross Salary" required>
+            </td>
+        </tr>
+        <tr>
+            <td> No. of Days in Month :</td>
+            <td>
+                <input type="text" name="days" id="days" placeholder="No. of days in month" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Leave Balance :
+            </td>
+            <td>
+                <input type="text" id="leave" placeholder="Leave Balance" name="leave">
+            </td>
+        </tr>
+        <tr>
+            <td>No. of Days Absent :</td>
+            <td>
+                <input type="text" id="absence" name="absence" placeholder="No. of days Absent" onchange="setlop()">
+            </td>
+        </tr>
+        <tr>
+            <td>LOP :</td>
+            <td>
+                <input type="text" name="lop" id="lop" placeholder="Lop" required>
+            </td>
+        </tr>
+        <tr>
+            <td>Advance :</td>
+            <td>
+                <input type="text" name="advance" id="advance" placeholder="Advance">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Net Salary :
+            </td>
+            <td>
+                <input type="text" name="net" id="net" placeholder="Net Salary" disabled>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <input type="button" value="Calculate" onclick="calculate()">
+            </td>
+            <td align="center">
+                <input type="submit" value="Reset">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

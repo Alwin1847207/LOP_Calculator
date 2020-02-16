@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4f7ed63-4cc6-4956-a8a5-fb4333d54ec5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1XsJCPcGM7auRw4UcJFroR6VAeD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.phonegap.settings.workdir" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="PhoneGap/Cordova run" type="PhoneGap" factoryName="PhoneGap/Cordova">
+      <option name="myExecutable" value="/usr/local/bin/cordova" />
+      <option name="myWorkDir" value="$PROJECT_DIR$" />
+      <option name="myCommand" value="emulate" />
+      <option name="myPassParent" value="true" />
+      <option name="myPlatform" value="android" />
+      <option name="myExtraArgs" />
+      <option name="hasTarget" value="false" />
+      <option name="target" />
+      <method v="2">
+        <option name="PhonegapTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4f7ed63-4cc6-4956-a8a5-fb4333d54ec5" name="Default Changelist" comment="" />
+      <created>1581828740138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581828740138</updated>
+      <workItem from="1581828743289" duration="2296000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1004" y="211" width="800" height="684" key="#Notifications" timestamp="1581829167327">
+      <screen x="0" y="27" width="1920" height="1009" />
+    </state>
+    <state x="1004" y="211" width="800" height="684" key="#Notifications/0.27.1920.1009@0.27.1920.1009" timestamp="1581829167327" />
+  </component>
+</project>
